@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="bd_paises" Class="BD_PaisesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-D22NE6O\SQLEXPRESS;Initial Catalog=bd_paises;Persist Security Info=True;User ID=sa" SettingsObjectName="Proyecto_paises_CRUD_MSSQL_LINQ.Properties.Settings" SettingsPropertyName="bd_paisesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Pais" Member="Pais">
+    <Type Name="Pais">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
